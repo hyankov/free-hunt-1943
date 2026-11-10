@@ -79,6 +79,11 @@ Download the new `free-hunt-1943.apk` and install it over the old one.
 
 ### R36S / gamepad
 
+![R36S controls: left stick flies, right stick looks around, D-pad up/down throttle, D-pad left/right air brake, R1 cannons, L1 rocket, L2/R2 rudder, A big map, B sight zoom (tap) or panel zoom (hold), X padlock, Y camera, R3 hold to bail out, Start menu](docs/controls-r36s.svg)
+
+<details>
+<summary>Controls as text</summary>
+
 | Button | Action |
 |---|---|
 | Left stick | Fly: pitch and turn (the plane banks for you) |
@@ -89,12 +94,14 @@ Download the new `free-hunt-1943.apk` and install it over the old one.
 | L1 | Rocket |
 | L2 / R2 | Rudder left / right |
 | A (hold) | Big map |
-| B | Tap: gunsight zoom in / out (every view). Hold: zoom on the instrument panel (cockpit) |
+| B | Tap: gunsight zoom in / out. Hold: zoom in on the instrument panel |
 | X (hold) | Padlock: keep the view on the nearest enemy |
 | Y | Change camera: cockpit, clear view, chase |
-| R3 (hold 1 s) | Bail out |
+| R3 (press the right stick in, hold 1 s) | Bail out |
 | Start | Menu / pause |
 | Select + Start | Quit |
+
+</details>
 
 All buttons can be remapped in **OPTIONS > CONTROLS > BUTTONS**.
 
