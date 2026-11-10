@@ -1,0 +1,43 @@
+name: Performance (slow or choppy)
+description: The game runs slow, stutters, or the frame rate drops.
+labels: ["performance"]
+body:
+  - type: markdown
+    attributes:
+      value: Turn on OPTIONS > VIDEO > FPS COUNTER and note the number in the top left.
+  - type: input
+    id: device
+    attributes:
+      label: Device, model and firmware
+      description: "For example: R36S, ArkOS 2.0. On Android: phone model."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+    validations:
+      required: true
+  - type: input
+    id: fps
+    attributes:
+      label: FPS you see
+      description: "Normal flight and the worst moment, for example: 30 normally, 15 over a city in rain."
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where and when it gets slow
+      description: Over towns, in storms, with the big map open, at night, in the desert...
+    validations:
+      required: true
+  - type: textarea
+    id: settings
+    attributes:
+      label: Video settings
+      description: Anything you changed in OPTIONS > VIDEO (view distance, detail, resolution).
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or photo

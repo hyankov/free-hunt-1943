@@ -1,0 +1,54 @@
+name: Bug report
+description: Something is broken, crashes, or behaves wrong.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! The more of this you fill in, the faster it gets fixed.
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - R36S
+        - Other PortMaster handheld (say which below)
+        - Android phone or tablet
+    validations:
+      required: true
+  - type: input
+    id: device_detail
+    attributes:
+      label: Device model and firmware
+      description: "For example: R36S clone, ArkOS 2.0 (11-2024), or ROCKNIX / dArkOS. On Android: phone model and Android version."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: The release name you downloaded (for example beta 0.1, or the file name).
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      description: What you were doing (flying low over a town, landing, in the menu...). Does it happen every time?
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot, photo or video
+      description: Drag files here. A phone photo of the screen is fine.
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (R36S, for crashes)
+      description: Paste the contents of ports/freehunt1943/log.txt from the SD card.
+      render: text
