@@ -53,6 +53,11 @@ The newest build is always at these fixed links:
 
 To update, do the same with the new zip. Your settings and logbook are kept.
 
+**One-button updates (Wi-Fi):** copy
+[`Update Free Hunt 1943.sh`](tools/Update%20Free%20Hunt%201943.sh) into your `ports` folder
+(next to `FreeHunt1943.sh`) and restart once. From then on, run **Update Free Hunt 1943** from
+the Ports menu: it downloads the newest release and installs it, keeping your settings and logbook.
+
 ### Android
 
 Download the APK on the phone, open it and allow installs from that source when asked.
