@@ -16,6 +16,7 @@ body:
     id: version
     attributes:
       label: Game version
+      description: Shown under the title on the menu, for example BETA 2026.11.10-3.
     validations:
       required: true
   - type: input

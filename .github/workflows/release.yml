@@ -28,7 +28,16 @@ env:
   SOURCE_REPO: hyankov/ww2_dogfight
   KEEP_RELEASES: 5
 jobs:
+  version:
+    runs-on: ubuntu-24.04
+    outputs:
+      v: ${{ steps.v.outputs.v }}
+    steps:
+      - id: v
+        run: echo "v=$(date -u +%Y.%m.%d)-${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+
   portmaster:
+    needs: version
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -41,6 +50,8 @@ jobs:
         with:
           path: .toolchain
           key: aarch64-toolchain-${{ hashFiles('tools/build_aarch64.sh') }}
+      - name: Stamp the version (shown under the title in game)
+        run: echo '#define GAME_VERSION "${{ needs.version.outputs.v }}"' > src/version.h
       - name: PortMaster ARM64 package
         run: |
           if ! ./tools/package.sh > build.log 2>&1; then
@@ -55,6 +66,7 @@ jobs:
           retention-days: 1
 
   android:
+    needs: version
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -74,6 +86,10 @@ jobs:
         with:
           path: .toolchain/SDL2-*.tar.gz
           key: android-sdl-${{ hashFiles('tools/build_android.sh') }}
+      - name: Stamp the version (shown under the title in game)
+        run: |
+          echo '#define GAME_VERSION "${{ needs.version.outputs.v }}"' > src/version.h
+          sed -i -E "s/versionCode [0-9]+/versionCode ${{ github.run_number }}/; s/versionName '[^']*'/versionName '${{ needs.version.outputs.v }}'/" android/app/build.gradle
       - name: Android APK (arm64, armv7, x86_64)
         run: |
           if ! ./tools/build_android.sh > build.log 2>&1; then
@@ -88,7 +104,7 @@ jobs:
           retention-days: 1
 
   publish:
-    needs: [portmaster, android]
+    needs: [version, portmaster, android]
     if: ${{ !inputs.dry_run }}
     runs-on: ubuntu-24.04
     env:
@@ -101,7 +117,7 @@ jobs:
       - name: Name the release
         id: name
         run: |
-          tag="beta-$(date -u +%Y.%m.%d)-${{ github.run_number }}"
+          tag="beta-${{ needs.version.outputs.v }}"
           echo "tag=$tag" >> "$GITHUB_OUTPUT"
           mkdir -p files
           cp out/portmaster/freehunt1943.zip files/freehunt1943.zip
