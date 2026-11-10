@@ -36,6 +36,16 @@ Get the latest build from the **[Releases](../../releases)** page:
    game and removes the zip.
 3. Restart EmulationStation (or the console). **Free Hunt 1943** shows up under Ports.
 
+**Over Wi-Fi instead of taking the card out** (ArkOS and similar, needs Wi-Fi on the device):
+
+1. On the handheld, open **Options > Enable Remote Services** and note the IP address it shows.
+2. On a computer on the same network, open the device's file share (Windows: `\\<IP>` in
+   File Explorer; macOS: Finder > Go > Connect to Server > `smb://<IP>`), or its web file
+   browser at `http://<IP>` if your firmware has one.
+3. Copy `freehunt1943.zip` (still zipped) into `ports/PortMaster/autoinstall/` (inside the
+   `roms` share on ArkOS), then open PortMaster once and restart, as above. Turn Remote
+   Services off again afterwards.
+
 To update, do the same with the new zip. Your settings and logbook are kept.
 
 ### Android
