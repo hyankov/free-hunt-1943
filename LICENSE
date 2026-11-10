@@ -1,0 +1,52 @@
+Free Hunt 1943 - Freeware Licence
+
+Copyright (c) 2026 Hristo Yankov. All rights reserved.
+
+Free Hunt 1943 (the "Game") is proprietary software. It is free to download
+and play, but it is not open source and it is not in the public domain. This
+licence covers the Game's program files, graphics, sounds, text, name and
+screenshots, in every release and on every platform.
+
+1. What you may do
+   a. Download, install and play the Game for personal, non-commercial use.
+   b. Share an exact, unmodified copy of an official release file (the
+      PortMaster zip or the Android APK, as published at
+      https://github.com/hyankov/free-hunt-1943/releases), free of charge,
+      as long as this licence stays with it and you say where it came from.
+   c. Stream, record and post videos and screenshots of yourself playing
+      the Game, including on monetised channels.
+
+2. What you may not do
+   a. Sell, rent or license the Game, or charge any fee for it or for
+      access to it.
+   b. Bundle or pre-install the Game on any device, SD card, image, pack
+      or collection that is sold or given away as part of a sale,
+      without written permission.
+   c. Modify, translate, patch or repackage the Game, or publish it under
+      another name, or remove or change this licence or any credits.
+   d. Decompile, disassemble or reverse engineer the Game, or extract its
+      code, graphics or sounds for any other use, except where the law
+      allows it despite this restriction.
+   e. Upload the Game to any app store or marketplace.
+   f. Claim the Game, or any part of it, as your own work.
+
+3. Ownership
+   The Game is licensed to you, not sold. All rights not expressly granted
+   in this licence are reserved by the copyright holder.
+
+4. Termination
+   This licence ends automatically if you break any of its terms. You must
+   then delete every copy of the Game you have.
+
+5. No warranty
+   The Game is a beta and is provided "as is", without warranty of any
+   kind. To the fullest extent the law allows, the copyright holder is not
+   liable for any damage or loss arising from using it.
+
+6. Third-party components
+   The Game uses SDL2 (zlib licence, https://libsdl.org) and stb_image
+   (public domain / MIT, https://github.com/nothings/stb). Those components
+   remain under their own licences; this licence covers everything else.
+
+For permission requests, open an issue at
+https://github.com/hyankov/free-hunt-1943/issues.
