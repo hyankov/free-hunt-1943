@@ -12,8 +12,8 @@ for yourself.
 
 | | |
 |---|---|
-| ![Mountains](docs/mountains.png) | ![Storm](docs/storm.png) |
-| ![Desert and snow](docs/desert-snow.png) | ![Contrail](docs/contrail.png) |
+| ![Mountains](docs/mountains.png) | ![Enemy fighter down](docs/combat.png) |
+| ![Thunderstorm](docs/storm.png) | ![Desert and snow](docs/desert-snow.png) |
 
 > This repository is for players: downloads (on the Releases page) and the place to report
 > bugs and share ideas. The game is in beta, so expect rough edges and please tell us about them.
