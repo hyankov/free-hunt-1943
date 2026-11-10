@@ -3,7 +3,7 @@ name: release
 # (PortMaster zip + Android APK). Runs only when started by hand (Actions > release > Run workflow).
 # Source is checked out with the SOURCE_TOKEN secret: a fine-grained token with read-only
 # "Contents" access to hyankov/ww2_dogfight. Nothing but the two finished files is published:
-# no source, no build logs (a failed build shows only its error lines). Only the newest 5 releases are kept.
+# no source, no build logs (a failed build shows only its error lines). Only the newest release is kept.
 on:
   workflow_dispatch:
     inputs:
@@ -26,7 +26,7 @@ concurrency:
   cancel-in-progress: false
 env:
   SOURCE_REPO: hyankov/ww2_dogfight
-  KEEP_RELEASES: 5
+  KEEP_RELEASES: 1
 jobs:
   version:
     runs-on: ubuntu-24.04
