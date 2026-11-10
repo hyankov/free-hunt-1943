@@ -89,7 +89,7 @@ Download the new `free-hunt-1943.apk` and install it over the old one.
 | L1 | Rocket |
 | L2 / R2 | Rudder left / right |
 | A (hold) | Big map |
-| B (hold) | Zoom on the instrument panel |
+| B | Tap: gunsight zoom in / out (every view). Hold: zoom on the instrument panel (cockpit) |
 | X (hold) | Padlock: keep the view on the nearest enemy |
 | Y | Change camera: cockpit, clear view, chase |
 | R3 (hold 1 s) | Bail out |
