@@ -59,6 +59,12 @@ jobs:
             grep -E "error:|Error " build.log | cut -c1-200 | head -20
             exit 1
           fi
+      - name: Add version.txt (the R36S updater compares it with the latest release)
+        run: |
+          mkdir -p vt/freehunt1943
+          echo "${{ needs.version.outputs.v }}" > vt/freehunt1943/version.txt
+          (cd vt && zip -q ../dist/freehunt1943.zip freehunt1943/version.txt)
+          unzip -l dist/freehunt1943.zip | grep version.txt
       - uses: actions/upload-artifact@v4
         with:
           name: portmaster

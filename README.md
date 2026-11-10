@@ -65,7 +65,8 @@ Your settings and logbook are kept with every update.
    and copy it into your `ports` folder, next to `FreeHunt1943.sh` (on ArkOS:
    `roms/ports/`). Restart EmulationStation so it shows up.
 2. **Every time a new version is out:** turn Wi-Fi on, open **Ports** and run
-   **Update Free Hunt 1943**. It downloads the newest release and installs it.
+   **Update Free Hunt 1943**. It checks GitHub first: if you already have the newest
+   version it says so, otherwise it downloads and installs it.
 
 If the download fails, check Wi-Fi and that the date and time on the device are right.
 No Wi-Fi? Copy the new `freehunt1943.zip` into `ports/PortMaster/autoinstall/` again, as in Install.
