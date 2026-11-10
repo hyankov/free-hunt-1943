@@ -51,17 +51,28 @@ The newest build is always at these fixed links:
    `roms` share on ArkOS), then open PortMaster once and restart, as above. Turn Remote
    Services off again afterwards.
 
-To update, do the same with the new zip. Your settings and logbook are kept.
-
-**One-button updates (Wi-Fi):** copy
-[`Update Free Hunt 1943.sh`](tools/Update%20Free%20Hunt%201943.sh) into your `ports` folder
-(next to `FreeHunt1943.sh`) and restart once. From then on, run **Update Free Hunt 1943** from
-the Ports menu: it downloads the newest release and installs it, keeping your settings and logbook.
-
 ### Android
 
 Download the APK on the phone, open it and allow installs from that source when asked.
-To update, install the new APK over the old one.
+
+## Updating
+
+Your settings and logbook are kept with every update.
+
+### R36S: one-button update from the Ports menu (Wi-Fi)
+
+1. **Once:** download [`Update Free Hunt 1943.sh`](https://raw.githubusercontent.com/hyankov/free-hunt-1943/main/tools/Update%20Free%20Hunt%201943.sh)
+   and copy it into your `ports` folder, next to `FreeHunt1943.sh` (on ArkOS:
+   `roms/ports/`). Restart EmulationStation so it shows up.
+2. **Every time a new version is out:** turn Wi-Fi on, open **Ports** and run
+   **Update Free Hunt 1943**. It downloads the newest release and installs it.
+
+If the download fails, check Wi-Fi and that the date and time on the device are right.
+No Wi-Fi? Copy the new `freehunt1943.zip` into `ports/PortMaster/autoinstall/` again, as in Install.
+
+### Android
+
+Download the new `free-hunt-1943.apk` and install it over the old one.
 
 ## Controls
 
