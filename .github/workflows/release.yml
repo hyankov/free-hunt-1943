@@ -1,0 +1,126 @@
+name: release
+# Builds Free Hunt 1943 from the PRIVATE source repo and publishes a release here
+# (PortMaster zip + Android APK). Runs only when started by hand (Actions > release > Run workflow).
+# Source is checked out with the SOURCE_TOKEN secret: a fine-grained token with read-only
+# "Contents" access to hyankov/ww2_dogfight. Nothing but the two finished files is published:
+# no source, no build logs (a failed build shows only its error lines). Only the newest 5 releases are kept.
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Branch, tag or commit of the source to build
+        default: main
+        required: true
+      notes:
+        description: What's new (shown on the release page)
+        default: ""
+        required: false
+permissions:
+  contents: write
+concurrency:
+  group: release
+  cancel-in-progress: false
+env:
+  SOURCE_REPO: hyankov/ww2_dogfight
+  KEEP_RELEASES: 5
+jobs:
+  portmaster:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SOURCE_REPO }}
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.SOURCE_TOKEN }}
+          persist-credentials: false
+      - uses: actions/cache@v4
+        with:
+          path: .toolchain
+          key: aarch64-toolchain-${{ hashFiles('tools/build_aarch64.sh') }}
+      - name: PortMaster ARM64 package
+        run: |
+          if ! ./tools/package.sh > build.log 2>&1; then
+            echo "Build failed. The full log stays private; only error lines are shown."
+            grep -E "error:|Error " build.log | cut -c1-200 | head -20
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: portmaster
+          path: dist/freehunt1943.zip
+          retention-days: 1
+
+  android:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SOURCE_REPO }}
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.SOURCE_TOKEN }}
+          persist-credentials: false
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: 8.14.3
+      - uses: actions/cache@v4
+        with:
+          path: .toolchain/SDL2-*.tar.gz
+          key: android-sdl-${{ hashFiles('tools/build_android.sh') }}
+      - name: Android APK (arm64, armv7, x86_64)
+        run: |
+          if ! ./tools/build_android.sh > build.log 2>&1; then
+            echo "Build failed. The full log stays private; only error lines are shown."
+            grep -E "error:|Error " build.log | cut -c1-200 | head -20
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android
+          path: dist/freehunt1943-debug.apk
+          retention-days: 1
+
+  publish:
+    needs: [portmaster, android]
+    runs-on: ubuntu-24.04
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: out
+      - name: Name the release
+        id: name
+        run: |
+          tag="beta-$(date -u +%Y.%m.%d)-${{ github.run_number }}"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          mkdir -p files
+          cp out/portmaster/freehunt1943.zip files/freehunt1943.zip
+          cp out/android/freehunt1943-debug.apk "files/free-hunt-1943-$tag.apk"
+          ls -la files
+      - name: Publish
+        env:
+          NOTES: ${{ inputs.notes }}
+          TAG: ${{ steps.name.outputs.tag }}
+        run: |
+          {
+            [ -n "$NOTES" ] && printf '%s\n\n' "$NOTES"
+            echo "**R36S / PortMaster:** copy \`freehunt1943.zip\` (do not unzip) to \`ports/PortMaster/autoinstall/\`, then open PortMaster."
+            echo
+            echo "**Android:** download and open \`free-hunt-1943-$TAG.apk\`."
+            echo
+            echo "Found a bug? [Report it here](https://github.com/$GH_REPO/issues/new/choose)."
+          } > notes.md
+          gh release create "$TAG" files/* --title "Free Hunt 1943 $TAG" --notes-file notes.md --prerelease --target "${{ github.sha }}"
+      - name: Keep only the newest releases
+        run: |
+          gh release list --limit 200 --json tagName,createdAt \
+            --jq "sort_by(.createdAt) | reverse | .[$KEEP_RELEASES:] | .[].tagName" |
+          while read -r t; do
+            echo "deleting old release $t"
+            gh release delete "$t" --yes --cleanup-tag
+          done
