@@ -121,7 +121,7 @@ jobs:
           echo "tag=$tag" >> "$GITHUB_OUTPUT"
           mkdir -p files
           cp out/portmaster/freehunt1943.zip files/freehunt1943.zip
-          cp out/android/freehunt1943-debug.apk "files/free-hunt-1943-$tag.apk"
+          cp out/android/freehunt1943-debug.apk files/free-hunt-1943.apk
           ls -la files
       - name: Publish
         env:
@@ -132,11 +132,11 @@ jobs:
             [ -n "$NOTES" ] && printf '%s\n\n' "$NOTES"
             echo "**R36S / PortMaster:** copy \`freehunt1943.zip\` (do not unzip) to \`ports/PortMaster/autoinstall/\`, then open PortMaster."
             echo
-            echo "**Android:** download and open \`free-hunt-1943-$TAG.apk\`."
+            echo "**Android:** download and open \`free-hunt-1943.apk\`."
             echo
             echo "Found a bug? [Report it here](https://github.com/$GH_REPO/issues/new/choose)."
           } > notes.md
-          gh release create "$TAG" files/* --title "Free Hunt 1943 $TAG" --notes-file notes.md --prerelease --target "${{ github.sha }}"
+          gh release create "$TAG" files/* --title "Free Hunt 1943 $TAG" --notes-file notes.md --latest --target "${{ github.sha }}"
       - name: Keep only the newest releases
         run: |
           gh release list --limit 200 --json tagName,createdAt \

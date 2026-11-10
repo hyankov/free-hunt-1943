@@ -23,7 +23,12 @@ for yourself.
 Get the latest build from the **[Releases](../../releases)** page:
 
 - `freehunt1943.zip` for the R36S and other PortMaster handhelds (aarch64)
-- `free-hunt-1943-<version>.apk` for Android phones
+- `free-hunt-1943.apk` for Android phones
+
+The newest build is always at these fixed links:
+
+- https://github.com/hyankov/free-hunt-1943/releases/latest/download/freehunt1943.zip
+- https://github.com/hyankov/free-hunt-1943/releases/latest/download/free-hunt-1943.apk
 
 ## Install
 
