@@ -6,7 +6,9 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Parachutes show on the big map and the minimap: a small parachute picture, red for enemy
+  crews and green for ours. When you bail out yourself, your yellow plane becomes a yellow
+  parachute until you land.
 
 ## beta-2026.11.11-11 (11 November 2026)
 
