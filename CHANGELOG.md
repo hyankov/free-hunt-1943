@@ -57,6 +57,18 @@ downloaded, from the [Releases](../../releases) page.
 - Parachutes show on the big map and the minimap: a small parachute picture, red for enemy
   crews and green for ours. When you bail out yourself, your yellow plane becomes a yellow
   parachute until you land.
+- Target tracking is steadier: the HUD keeps one current target (bright bracket, lead mark and
+  padlock all on the same plane) instead of jumping between enemies, the padlock stays on the
+  plane it picked, and the edge arrow to off-screen enemies wobbles less. The ENEMY BEHIND
+  warning is gone.
+- From the cockpit you can turn your head at most 145 degrees each way, like a real pilot (the
+  mirror covers dead astern). The padlock view waits at that limit instead of looking through
+  the headrest.
+- Achievement and landmark banners now share one plaque, the same lettering, size, place and
+  timing. If several come at once they show one after another, each with a chime, and they wait
+  while the big map or the menu is open.
+- Cockpit: the armour plate behind the seat now fills the full width, so there is no longer a
+  slot of sky beside it when you look back.
 
 ## beta-2026.11.11-11 (11 November 2026)
 
