@@ -6,6 +6,15 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+- Every town and village has its own made-up name, in the style of its country (farmland,
+  desert or the snowy north). Names are printed on the big map and the minimap, local tasks use
+  them, and a building you knock down shows where it stood in the kill feed.
+- Towns now differ in size much more. Cities have a dense centre of streets with blocks of flats
+  three to five storeys high and a factory quarter with a smoking chimney on the edge; some towns
+  have a back street or a small works; villages range from a dozen houses down to a hamlet.
+- Villages and smaller towns in green country are surrounded by a patchwork of farm fields:
+  wheat, barley, maize, potatoes and beet, cabbages, rape in flower, fresh ploughing and hay,
+  most with rows you can see when flying low.
 - Bailing out of a plane that is going down, badly hit or out of fuel starts the moment you
   press the button, with no hold to confirm it. Bailing out of a healthy plane still needs the
   one-second hold.
