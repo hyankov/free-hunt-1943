@@ -144,10 +144,13 @@ jobs:
           } > notes.md
           gh release create "$TAG" files/* --title "Free Hunt 1943 $TAG" --notes-file notes.md --latest --target "${{ github.sha }}"
       - name: Keep only the newest releases
+        env:
+          TAG: ${{ steps.name.outputs.tag }}
         run: |
-          gh release list --limit 200 --json tagName,createdAt \
-            --jq "sort_by(.createdAt) | reverse | .[$KEEP_RELEASES:] | .[].tagName" |
+          gh release list --limit 200 --json tagName,publishedAt \
+            --jq "sort_by(.publishedAt) | reverse | .[$KEEP_RELEASES:] | .[].tagName" |
           while read -r t; do
+            [ "$t" = "$TAG" ] && continue   # never the release just published
             echo "deleting old release $t"
             gh release delete "$t" --yes --cleanup-tag
           done
