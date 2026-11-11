@@ -91,15 +91,15 @@ Download the new `free-hunt-1943.apk` and install it over the old one.
 | Left stick | Fly: pitch and turn (the plane banks for you) |
 | Right stick | Look around (springs back when you let go) |
 | D-pad up / down | Throttle up / down (hold) |
-| D-pad left / right | Air brake (hold) |
+| D-pad left / right | Air brake (hold); on the runway it works the wheel brakes |
 | R1 (hold) | Cannons (they overheat) |
 | L1 | Rocket |
-| L2 / R2 | Rudder left / right |
+| L2 / R2 | Rudder left / right; hold both together for the air brake |
 | A (hold) | Big map |
 | B | Tap: gunsight zoom in / out. Hold: zoom in on the instrument panel |
 | X (hold) | Padlock: keep the view on the nearest enemy |
 | Y | Change camera: cockpit, clear view, chase |
-| R3 (press the right stick in, hold 1 s) | Bail out |
+| R3 (press the right stick in, hold 1 s) | Bail out (in an emergency, a press is enough) |
 | Start | Menu / pause |
 | Select + Start | Quit |
 

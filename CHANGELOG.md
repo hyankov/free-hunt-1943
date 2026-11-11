@@ -6,6 +6,11 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+- Bailing out of a plane that is going down, badly hit or out of fuel starts the moment you
+  press the button, with no hold to confirm it. Bailing out of a healthy plane still needs the
+  one-second hold.
+- Holding both rudder buttons (L2 and R2) together works the air brake, and on the ground the
+  wheel brakes, the same as D-pad left or right.
 - Rockets fly more like the real ones: the motor burns for about a second and a half with a
   bright flame and a thick white trail, then the rocket coasts on, trailing thinner grey smoke,
   and starts to drop gently past about 1 km. It no longer blows up in mid-air at a set distance:
