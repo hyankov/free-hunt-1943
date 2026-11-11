@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.11-12 (11 November 2026)
+
 - Every town and village has its own made-up name, in the style of its country (farmland,
   desert or the snowy north). Names are printed on the big map and the minimap, local tasks use
   them, and a building you knock down shows where it stood in the kill feed.
