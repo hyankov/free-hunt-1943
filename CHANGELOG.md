@@ -6,7 +6,18 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Trees and cacti are no longer ghosts to your guns: a couple of rounds (one for a cactus) and
+  they burst into leaves or green chunks that rain down. A rocket clears the trees round it, and
+  flying through them breaks them up too. Saguaros still don't stop the plane, but they burst.
+- Desert rock formations come down under fire or when something crashes into them. Tall spires
+  topple over and smash along the ground; buttes crumble into their own dust and leave a stump;
+  an arch's middle breaks out and drops, leaving two broken horns. Shoot a leg away and the
+  middle comes down with it.
+- Cannon fire into the ground throws up dust that hangs for a few seconds, so a strafing run
+  leaves a trail of dust behind it. Sand throws up the most and keeps it longest.
+- The dust a plane lifts flying low and fast over sand or snow is bigger and reaches higher the
+  faster you go.
+- Water splashes are bigger and much taller (a cannon round about twice as tall as before).
 
 ## beta-2026.11.11-10 (11 November 2026)
 
