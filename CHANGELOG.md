@@ -17,6 +17,11 @@ downloaded, from the [Releases](../../releases) page.
   a banner names it, then the mark turns into a gold star (named on the big map). Found landmarks
   are remembered with your world, and the logbook counts them (LANDMARKS FOUND). They are solid:
   don't fly into them.
+- The map icons are redrawn: smooth, rounded pictures with finer detail (tank tracks and
+  turret, truck cab, carrier deck markings, house windows, factory skylights, parachute lines)
+  and a thin dark outline that stays the same width at any size, so they look sharp on the
+  R36S and on a phone instead of blocky. Same icons and colours as before, just cleaner. The
+  round minimap has a smooth edge too.
 - Lock tone: when the nose is lined up on the target's lead mark, a steady high tone now plays for
   as long as it stays there and stops the moment it slips off, like a missile tone in the movies.
   It replaces the short chirp, follows the sound volume setting and goes quiet in the menu.
