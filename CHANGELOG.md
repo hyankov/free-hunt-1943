@@ -20,8 +20,8 @@ downloaded, from the [Releases](../../releases) page.
   on a hill, a desert fort, a lost tank column half buried in the sand, a fallen airship, a
   mountain-top observatory, a weather station in the snow, an abandoned mine and an ancient stone
   circle. Each one sits where it fits (ships on the coast, forts in the desert, observatories on
-  high peaks). They show as a question mark on the big map and the minimap; fly close to one and
-  a banner names it, then the mark turns into a gold star (named on the big map). Found landmarks
+  high peaks). They show as a question mark on the big map and the minimap; to find one, get within
+  500 m of it and look straight at it (free look counts), and a banner names it, then the mark turns into a gold star (named on the big map). Found landmarks
   are remembered with your world, and the logbook counts them (LANDMARKS FOUND). They are solid:
   don't fly into them.
 - The map icons are redrawn: smooth, rounded pictures with finer detail (tank tracks and
