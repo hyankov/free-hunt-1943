@@ -6,6 +6,13 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+- Rockets fly more like the real ones: the motor burns for about a second and a half with a
+  bright flame and a thick white trail, then the rocket coasts on, trailing thinner grey smoke,
+  and starts to drop gently past about 1 km. It no longer blows up in mid-air at a set distance:
+  it goes off when it hits a plane (or passes close to one), the ground or anything on it. A
+  miss that gets far away just disappears.
+- Every fighter now carries its rockets under its wings, five a side, so you can see how many are
+  left (enemies too). They fire one at a time, alternating left and right wing.
 - Hidden landmarks to discover: rare, out-of-the-way places scattered through every world, 17
   kinds of them, each with its own made-up name. A crashed fighter or a lost bomber bellied into
   a field, a freighter, an old sailing ship, a submarine or a flying boat run aground on a beach,
