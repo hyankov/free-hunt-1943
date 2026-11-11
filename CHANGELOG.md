@@ -6,6 +6,17 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+- Hidden landmarks to discover: rare, out-of-the-way places scattered through every world, 17
+  kinds of them, each with its own made-up name. A crashed fighter or a lost bomber bellied into
+  a field, a freighter, an old sailing ship, a submarine or a flying boat run aground on a beach,
+  an abandoned lighthouse, a hidden radar station, a secret rocket launch site, a ruined castle
+  on a hill, a desert fort, a lost tank column half buried in the sand, a fallen airship, a
+  mountain-top observatory, a weather station in the snow, an abandoned mine and an ancient stone
+  circle. Each one sits where it fits (ships on the coast, forts in the desert, observatories on
+  high peaks). They show as a question mark on the big map and the minimap; fly close to one and
+  a banner names it, then the mark turns into a gold star (named on the big map). Found landmarks
+  are remembered with your world, and the logbook counts them (LANDMARKS FOUND). They are solid:
+  don't fly into them.
 - Lock tone: when the nose is lined up on the target's lead mark, a steady high tone now plays for
   as long as it stays there and stops the moment it slips off, like a missile tone in the movies.
   It replaces the short chirp, follows the sound volume setting and goes quiet in the menu.
