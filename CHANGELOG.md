@@ -8,7 +8,7 @@ downloaded, from the [Releases](../../releases) page.
 
 - Weather works like the time of day in Options - World: WEATHER sets the weather now (clear,
   fair, cloudy, rain, storm, fog), and a separate AUTO WEATHER switch decides whether it stays
-  that way (OFF) or changes on its own later (ON).
+  that way (OFF) or changes on its own later (ON). CYCLE TIME is renamed AUTO TIME to match.
 - AI planes no longer fly into mountainsides. Bombers and tankers used to fly dead straight and
   climb only gently, so a steep slope ahead got them; fighters looked too short a way ahead and
   only ever pulled up. Now they all look far enough ahead, turn away from anything too steep to
