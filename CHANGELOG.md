@@ -6,6 +6,14 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+- Achievements: 54 named feats to go after, from flying under a bridge, through a desert rock
+  arch or down a canyon in the dark, to a loop, a victory roll, a dead-stick landing, sinking a
+  ship by flying into it, parachuting onto a carrier or setting off an avalanche. A gold banner
+  comes up when you earn one, and they are kept in your logbook between sessions.
+- The logbook has two pages now: RECORD (your career, as before) and ACHIEVEMENTS, which lists
+  every achievement, the earned ones in gold and the others with how to get them, for ideas of
+  what to try. Left/right (or A) switches pages, up/down scrolls; on a phone, tap the page names
+  and the top or bottom of the list.
 - Parachutes show on the big map and the minimap: a small parachute picture, red for enemy
   crews and green for ours. When you bail out yourself, your yellow plane becomes a yellow
   parachute until you land.
