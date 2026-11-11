@@ -6,6 +6,9 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+- Lock tone: when the nose is lined up on the target's lead mark, a steady high tone now plays for
+  as long as it stays there and stops the moment it slips off, like a missile tone in the movies.
+  It replaces the short chirp, follows the sound volume setting and goes quiet in the menu.
 - Achievements: 54 named feats to go after, from flying under a bridge, through a desert rock
   arch or down a canyon in the dark, to a loop, a victory roll, a dead-stick landing, sinking a
   ship by flying into it, parachuting onto a carrier or setting off an avalanche. A gold banner
