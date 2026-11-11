@@ -1,0 +1,95 @@
+# Changelog
+
+What changed in each release of Free Hunt 1943, newest first. The version you have is shown
+under the title in the game (BETA 2026.11.11-10 and so on). Only the newest release can be
+downloaded, from the [Releases](../../releases) page.
+
+## Next release
+
+_Nothing yet._
+
+## beta-2026.11.11-10 (11 November 2026)
+
+- The rear-view mirror works: it shows the horizon behind you and any plane sitting on your tail.
+- One cockpit for every plane, the fast one. The detailed cockpit cost too much frame rate on
+  the R36S, so it and the SIMPLE COCKPIT option are gone.
+- Wing roundels are back, and the panel lines, rivets and grime are back on the painted skin.
+- Your own hits make the tin "ping"; being hit (by guns or flak) now has its own heavy thump
+  and crunch, so you can tell the two apart.
+- Enemy fighters that get on your six now close in to gun range instead of firing from too far.
+- The big map legend no longer lists WATER.
+
+## beta-2026.11.11-8 (11 November 2026)
+
+- Sandy beaches and rocky shores along the seas and big lakes, with white surf rolling in.
+- Volcanic islands far out at sea: cinder cones, crater lakes, black basalt cliffs and dark lava
+  beaches.
+- Desert dune seas: long wind-shaped dunes with sharp crests and shaded lee sides.
+
+## beta-2026.11.10-7 (10 November 2026)
+
+- The world is kept between sessions: same map and the ground you have already explored.
+  NEW WORLD starts a fresh one.
+- Rounds hit the actual shape of a plane (fuselage, wings, tail, engines), not a big bubble
+  around it.
+- Parachute: the left stick steers it the way you point.
+- B button: tap to zoom the gunsight (in every view), hold to zoom in on the instrument panel.
+- The lead indicator is thin like the rest of the HUD and gives a soft high chirp when your
+  nose is on it.
+- Rounds and rockets fly at speeds that match the planes; one round in three is a tracer.
+- On the runway the brakes hold the plane while the engine winds up. Rolling fast over rough
+  ground off the runway damages the plane, for the enemy too.
+- Buttons pressed while a menu is open no longer fire when it closes.
+- Better frame rate with distant planes, vehicles and towns on screen.
+
+## beta-2026.11.10-6 (10 November 2026)
+
+- The bail-out prompt names the right button for your device and shows how long to hold it.
+- Logbook in two columns with bigger text.
+
+## beta-2026.11.10-5 (10 November 2026)
+
+- New reflector gunsight in the cockpit; an amber sight in the outside views.
+- The gun heat bar shows only while the guns are warm.
+- The Spitfire's radiators are a matching pair; tail-wheel planes sit tail down on the ground.
+- The big map opens straight away the first time (it was slow on phones).
+
+## beta-2026.11.10-3 (10 November 2026), first public beta
+
+The first public build. What was in it:
+
+**The world**
+- An endless world, new every time: green highlands, rivers and lakes, snowy mountains,
+  deserts with canyons, mesas, rock arches and oases, open sea with islands and white cliffs.
+- Changing weather: clouds, rain, thunderstorms with lightning, morning mist. A full day from
+  dawn to moonlit night, with the sun rising in the east.
+- Towns and cities, roads, railways with steam trains, convoys, bridges, dams, factories and
+  train depots, airfields (some on islands) and aircraft carriers at sea.
+- No front line: each side holds pockets of land, and patrols take off from their airfields.
+
+**Flying**
+- You fly a Spitfire. Both sides also fly the Mustang, Thunderbolt and Zero, plus bombers and
+  tankers, at speeds in proportion to the real planes.
+- Arcade controls with automatic banking, cockpit, clear and chase views, free look and padlock.
+- Fuel, engine stalls high up, landing and takeoff, a landing aid with approach gates, and
+  carrier landings on the arrestor wires.
+- Land at any of your airfields to refuel, repair and rearm.
+- Bail out, fall, open the chute and steer it down; land safely to get a new plane.
+- On Android the phone's tilt can fly the plane (SWAP STICKS), with touch controls and a
+  CENTER button.
+
+**Fighting**
+- Cannon that overheat, and 10 rockets that drift in the wind and are reloaded only at an
+  airfield.
+- Enemy fighters that get on your six, a lone veteran Ace, bombers, flak and AA trucks.
+  Badly hit enemies try to limp home to land, or bail out.
+- Everything can be destroyed: towns burn, bridges drop, dams break and flood the valley,
+  rockets into snow slopes set off avalanches.
+- Optional local missions in each area (stop a convoy, drop a bridge, break a dam, knock out
+  flak, stop a bomber raid, down the Ace, and more). Ignore them if you like: it is a sandbox.
+- Damage shows as smoke, a cracked windscreen and malfunctions you can still fly with.
+
+**And**
+- A big paper map with fog of war, a round minimap, and a career logbook.
+- Menus: START (CONTINUE, NEW WORLD), OPTIONS (VIDEO, SOUND, CONTROLS, WORLD), LOGBOOK, EXIT.
+- Positional sound with Doppler fly-bys, engine, wind and warning tones.

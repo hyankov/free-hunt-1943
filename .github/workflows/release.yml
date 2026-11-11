@@ -4,6 +4,9 @@ name: release
 # Source is checked out with the SOURCE_TOKEN secret: a fine-grained token with read-only
 # "Contents" access to hyankov/ww2_dogfight. Nothing but the two finished files is published:
 # no source, no build logs (a failed build shows only its error lines). Only the newest release is kept.
+# CHANGELOG.md: every release needs bullet points under "## Next release" first. They become the
+# release notes, and after publishing that heading is renamed to the new tag and a fresh empty
+# "## Next release" is put on top (committed to main as hyankov).
 on:
   workflow_dispatch:
     inputs:
@@ -12,7 +15,7 @@ on:
         default: main
         required: true
       notes:
-        description: What's new (shown on the release page)
+        description: Optional headline above the changelog entry on the release page
         default: ""
         required: false
       dry_run:
@@ -35,6 +38,19 @@ jobs:
     steps:
       - id: v
         run: echo "v=$(date -u +%Y.%m.%d)-${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: CHANGELOG.md
+          sparse-checkout-cone-mode: false
+      - name: Changelog entry required
+        if: ${{ !inputs.dry_run }}
+        run: |
+          awk '/^## /{on=($0=="## Next release");next} on' CHANGELOG.md > next.md
+          if ! grep -q '^- ' next.md; then
+            echo "::error::CHANGELOG.md has no entry under '## Next release'. Add bullet points there (what players will notice), push, then run the release again."
+            exit 1
+          fi
+          cat next.md
 
   portmaster:
     needs: version
@@ -117,6 +133,10 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: site
       - uses: actions/download-artifact@v4
         with:
           path: out
@@ -134,8 +154,13 @@ jobs:
           NOTES: ${{ inputs.notes }}
           TAG: ${{ steps.name.outputs.tag }}
         run: |
+          awk '/^## /{on=($0=="## Next release");next} on' site/CHANGELOG.md > next.md
           {
             [ -n "$NOTES" ] && printf '%s\n\n' "$NOTES"
+            cat next.md
+            echo
+            echo "All changes: [CHANGELOG](https://github.com/$GH_REPO/blob/main/CHANGELOG.md)"
+            echo
             echo "**R36S / PortMaster:** copy \`freehunt1943.zip\` (do not unzip) to \`ports/PortMaster/autoinstall/\`, then open PortMaster."
             echo
             echo "**Android:** download and open \`free-hunt-1943.apk\`."
@@ -143,6 +168,23 @@ jobs:
             echo "Found a bug? [Report it here](https://github.com/$GH_REPO/issues/new/choose)."
           } > notes.md
           gh release create "$TAG" files/* --title "Free Hunt 1943 $TAG" --notes-file notes.md --latest --target "${{ github.sha }}"
+      - name: Changelog - stamp the entry with this release
+        env:
+          TAG: ${{ steps.name.outputs.tag }}
+        working-directory: site
+        run: |
+          day=$(date -u '+%-d %B %Y')
+          awk -v h="## $TAG ($day)" '
+            !done && $0=="## Next release" { print; print ""; print "_Nothing yet._"; print ""; print h; done=1; skip=1; next }
+            skip && /^_Nothing yet\._$/ { next }
+            /^## / { skip=0 }
+            { print }' CHANGELOG.md > CHANGELOG.new
+          mv CHANGELOG.new CHANGELOG.md
+          git config user.name hyankov
+          git config user.email 587536+hyankov@users.noreply.github.com
+          git commit -am "Changelog: $TAG"
+          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 5; done
+          echo "::warning::Release is out, but the changelog heading was not updated. Rename '## Next release' to '## $TAG ($day)' by hand."
       - name: Keep only the newest releases
         env:
           TAG: ${{ steps.name.outputs.tag }}

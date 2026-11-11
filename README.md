@@ -30,6 +30,8 @@ The newest build is always at these fixed links:
 - https://github.com/hyankov/free-hunt-1943/releases/latest/download/freehunt1943.zip
 - https://github.com/hyankov/free-hunt-1943/releases/latest/download/free-hunt-1943.apk
 
+What's new in each release: see the **[Changelog](CHANGELOG.md)**.
+
 ## Install
 
 ### R36S and other PortMaster handhelds (autoinstall)
