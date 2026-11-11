@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.11-11 (11 November 2026)
+
 - Weather works like the time of day in Options - World: WEATHER sets the weather now (clear,
   fair, cloudy, rain, storm, fog), and a separate AUTO WEATHER switch decides whether it stays
   that way (OFF) or changes on its own later (ON). CYCLE TIME is renamed AUTO TIME to match.
