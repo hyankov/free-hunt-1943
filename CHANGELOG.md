@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+- AI planes no longer fly into mountainsides. Bombers and tankers used to fly dead straight and
+  climb only gently, so a steep slope ahead got them; fighters looked too short a way ahead and
+  only ever pulled up. Now they all look far enough ahead, turn away from anything too steep to
+  climb over (dam walls too), and fighters roll upright before pulling out of a dive.
 - Trees and cacti are no longer ghosts to your guns: a couple of rounds (one for a cactus) and
   they burst into leaves or green chunks that rain down. A rocket clears the trees round it, and
   flying through them breaks them up too. Saguaros still don't stop the plane, but they burst.
