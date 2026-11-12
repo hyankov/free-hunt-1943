@@ -6,7 +6,19 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- All four planes can be flown again: the Spitfire, the P-51D Mustang, the P-47 Thunderbolt and
+  the A6M Zero, each with its own handling and cockpit. On the start screen, left and right (or
+  the arrows on a phone) show the next plane, with a line about it and five bars (speed, turn,
+  toughness, range, guns). The game remembers the plane you last took.
+- Changing planes in the middle of a game: land at one of your airfields and stop, and a line
+  offers the hangar (press R3, or tap it on a phone). The pause menu there also gets a CHANGE
+  PLANE item. The hangar view opens at that airfield, the same as the start screen, and the
+  plane you pick is fuelled, armed and ready to taxi out.
+- Cockpit touch-ups: the engine placards in the Spitfire and Thunderbolt are no longer cut off,
+  a stray brass sliver below the Spitfire's gunsight is gone, the Mustang's artificial horizon
+  is no longer cut by the glareshield, the Zero's canopy rails meet the windscreen, and the
+  Mustang's and Thunderbolt's bubble canopies have a rear frame instead of glass ending in
+  mid-air.
 
 ## beta-2026.11.11-12 (11 November 2026)
 

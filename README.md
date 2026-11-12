@@ -4,7 +4,7 @@
 
 A free arcade WW2 air combat game for the **R36S** (PortMaster) and **Android**.
 
-Climb into a Spitfire and fly as long as you like over an endless world that is new every
+Climb into a Spitfire, Mustang, Thunderbolt or Zero and fly as long as you like over an endless world that is new every
 time: green highlands, desert canyons, snowy peaks and open sea, through changing weather
 from dawn to starry night. Hunt whatever you find down there and up there. There is no game
 over and nobody tells you what to do: it is a sandbox, and we will let you discover the rest
@@ -99,7 +99,7 @@ Download the new `free-hunt-1943.apk` and install it over the old one.
 | B | Tap: gunsight zoom in / out. Hold: zoom in on the instrument panel |
 | X (hold) | Padlock: keep the view on the nearest enemy |
 | Y | Change camera: cockpit, clear view, chase |
-| R3 (press the right stick in, hold 1 s) | Bail out (in an emergency, a press is enough) |
+| R3 (press the right stick in, hold 1 s) | Bail out (in an emergency, a press is enough). Stopped at one of your airfields: open the hangar to change plane |
 | Start | Menu / pause |
 | Select + Start | Quit |
 
