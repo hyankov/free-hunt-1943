@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.12-14 (12 November 2026)
+
 - All four planes can be flown again: the Spitfire, the P-51D Mustang, the P-47 Thunderbolt and
   the A6M Zero, each with its own handling and cockpit. On the start screen, left and right (or
   the arrows on a phone) show the next plane, with a line about it and five bars (speed, turn,
