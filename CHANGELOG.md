@@ -23,6 +23,26 @@ downloaded, from the [Releases](../../releases) page.
   is no longer cut by the glareshield, the Zero's canopy rails meet the windscreen, and the
   Mustang's and Thunderbolt's bubble canopies have a rear frame instead of glass ending in
   mid-air.
+- Warships can be sunk. A hurt carrier or destroyer smokes, then burns, lists and settles as it
+  goes down, and leaves a dark oil slick spreading over the water where it sank. Ramming one is
+  a bad idea for you but worse for a destroyer. Ships are now their real size, so the carrier
+  is a long way from bow to stern.
+- You can see damage on the planes: bullet holes and scorch marks spread as a plane gets hurt, a
+  shot-away aileron hangs off the wing and a hit engine blackens the nose.
+- Runways differ in length: short forward strips, ordinary airfields and long main bases.
+- Airfields are alive: both sides park a line of fighters beside the runway. Patrols taxi out,
+  wait while the runway is busy, line up and take off, and planes coming home land and taxi back
+  to their places, also at the field where you are standing.
+- Flak is back over enemy towns, and light guns at towns, works and airfields punish low passes.
+- A kill camera: for a few seconds after a kill, a small gun-camera film in the corner shows what
+  you just destroyed. It can be switched off under OPTIONS > VIDEO > KILL CAMERA.
+- Crash sites are easier to find from the air: wrecks leave a furrow, a crater and felled trees
+  behind them, and lost tank columns leave real tracks across the sand. The abandoned tanks are
+  half buried, with their crews' deserted camp nearby.
+- Enemy ground targets now get the same red boxes as enemy planes, matching the maps.
+- The landing gates no longer show speed numbers.
+- Town names are shown on the big map only, no longer on the minimap.
+- The steam engine on the railway is its proper length, no longer barely longer than a wagon.
 
 ## beta-2026.11.11-12 (11 November 2026)
 
