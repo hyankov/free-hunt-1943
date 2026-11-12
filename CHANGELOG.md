@@ -10,6 +10,10 @@ downloaded, from the [Releases](../../releases) page.
   the A6M Zero, each with its own handling and cockpit. On the start screen, left and right (or
   the arrows on a phone) show the next plane, with a line about it and five bars (speed, turn,
   toughness, range, guns). The game remembers the plane you last took.
+- The four planes no longer share one body: the Mustang has a long nose with a pointed spinner,
+  a deep radiator scoop under its belly and a square tail; the Thunderbolt a deep, fat body and a
+  broad tail; the Zero a short nose, a long greenhouse canopy and a rounded tail. Each type has
+  its own paint too, Allied planes in different greens and Axis planes in different greys.
 - Changing planes in the middle of a game: land at one of your airfields and stop, and a line
   offers the hangar (press R3, or tap it on a phone). The pause menu there also gets a CHANGE
   PLANE item. The hangar view opens at that airfield, the same as the start screen, and the
