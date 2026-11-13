@@ -20,6 +20,8 @@ downloaded, from the [Releases](../../releases) page.
   sight zoom was on when you jumped.
 - Fuel tankers no longer have passenger windows: a fuel tank, filler caps, a refuelling hose
   and a hazard sign instead.
+- Enemy paratroopers now show in red target boxes; bailed-out aircrew and downed planes stay
+  gray.
 
 ## beta-2026.11.13-21 (13 November 2026)
 
