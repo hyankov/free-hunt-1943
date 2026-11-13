@@ -6,7 +6,43 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Each side now flies its own fighters. The Allies have the Spitfire, the P-51D Mustang, the
+  P-47 Thunderbolt and a new Hurricane, in greens and browns; the Axis have the new Bf 109 G,
+  Fw 190 A and Fw 190 D-9 and the Zero, in whites and greys. Every type has its own handling,
+  and the hangar now lists each plane's strengths and weaknesses next to its bars.
+- New main menu: START (CONTINUE or NEW WORLD), OPTIONS, LOGBOOK, PLANES and EXIT. PLANES lets
+  you look at every plane in the game in a small war scene, Allied first, then Axis, then the
+  bomber; on the ones you can fly, press A to sit in the cockpit and look round.
+- The pause menu is now RESUME, CHANGE PLANE (when you are stopped at one of your airfields),
+  OPTIONS, LOGBOOK and EXIT TO MAIN MENU, which saves and takes you back to the start screen in
+  the same world.
+- A LOADING screen while the game starts or a new world is made, so the first picture you see is
+  complete.
+- Enemy fighters answer calls for help: a convoy, train, town, flak battery, ship or bomber you
+  attack may radio for help, and the nearest enemy airfield scrambles fighters after you.
+- When you go down, one big red word tells you how: CRASHED, DITCHED, SHOT DOWN, RAMMED, STRUCK
+  DOWN, BURIED or KILLED.
+- Task markers are thin gold brackets around the target's box instead of a diamond, and they keep
+  up with fast targets. Every bomber you are escorting is marked, grouped in one green box.
+- Carriers are bigger (about 264 m), with the island out on the edge so the deck is clear, and
+  they sail further out on deep water. They show on the maps like airfields, and your nearest
+  carrier counts as a field for the pointer on the HUD.
+- The kill camera is closer, with finer grain, and opens up to a second before a kill it sees
+  coming.
+- Enemy guns sound like real WW2 fighters: each enemy plane has one of four gun sounds, and
+  rounds passing close crack and rip past you. Enemy rockets that pass near roar by, loud and
+  dropping in pitch.
+- Enemy pilots in parachutes can be hit. It is a war crime here: it costs 100 points and takes
+  away one of your achievements. They vanish in a red mist, and flying through one spatters
+  your canopy with blood.
+- No more driving through other planes on the ground: bump one slowly and you stop, hit it harder
+  and both are damaged, too fast and both go up. Planes taxiing round the field give way to you.
+- Hold the brakes at full power and the plane judders and builds up; let go and she surges
+  forward for a much shorter take-off run.
+- The minimap now shows 2 km to the edge. Planes and parachutes on it carry an arrow and how far
+  above or below you they are, in hundreds of metres. The speed sticks on both maps are gone.
+- Rivers and lakes in canyons and dam valleys no longer stop dead halfway along.
+- The hangar shows your plane in the clean (no cockpit) view too; it used to be empty.
 
 ## beta-2026.11.12-14 (12 November 2026)
 
