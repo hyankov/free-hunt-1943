@@ -7,9 +7,14 @@ downloaded, from the [Releases](../../releases) page.
 ## Next release
 
 - In the chase and clear views the throttle and fuel bars and the rocket marks in the lower
-  left are gone. Throttle and fuel are now shown as percentages and rockets as a count, on a
-  second line of text under speed, height and heading. All of that text is a little smaller so
-  everything fits, and low fuel blinks red.
+  left are gone. Speed, height, heading, throttle and fuel (as percentages) and the rocket count
+  now sit together on one line of smaller text along the bottom, and low fuel blinks red.
+- The fuel tanker is its own plane now, a three-engined transport with fixed wheels, cabin
+  windows and a tall square fin, instead of a copy of the bomber.
+- In the PLANES view the planes stand on a weathered tarmac apron and cast real shadows, so
+  they no longer look like they float in the air.
+- In the PLANES view, B goes back to the main menu and A gets you in and out of the cockpit.
+- Button names in menu hints are drawn as amber key caps so they stand out from the text.
 
 ## beta-2026.11.13-18 (13 November 2026)
 
