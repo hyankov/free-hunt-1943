@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.13-21 (13 November 2026)
+
 - New plane: the B-25 bomber, in the hangar and the plane previews (Allied). Slow and heavy,
   with six bombs. Hold the camera button to move between the crew seats: the pilot, the tail
   gunner (a glazed tail cone with twin guns and a reflector sight, B to bring your eye up to it)
