@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.13-22 (13 November 2026)
+
 - Paratroop transports for both sides: a three-engined plane with a ramp under the tail that
   lowers for the jump. Six men jump one at a time; shoot the transport down first and they go
   down with it. If more than half of them land in the drop zone, the town or works there
