@@ -39,8 +39,9 @@ downloaded, from the [Releases](../../releases) page.
   and both are damaged, too fast and both go up. Planes taxiing round the field give way to you.
 - Hold the brakes at full power and the plane judders and builds up; let go and she surges
   forward for a much shorter take-off run.
-- The minimap now shows 2 km to the edge. Planes and parachutes on it carry an arrow and how far
-  above or below you they are, in hundreds of metres. The speed sticks on both maps are gone.
+- The minimap now shows 2 km to the edge. Planes and parachutes on it carry an up or down arrow
+  when they are above or below you, the bigger the arrow the bigger the difference. The speed
+  sticks on both maps are gone.
 - Rivers and lakes in canyons and dam valleys no longer stop dead halfway along.
 - The hangar shows your plane in the clean (no cockpit) view too; it used to be empty.
 
