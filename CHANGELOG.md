@@ -15,6 +15,8 @@ downloaded, from the [Releases](../../releases) page.
   they no longer look like they float in the air.
 - In the PLANES view, B goes back to the main menu and A gets you in and out of the cockpit.
 - Button names in menu hints are drawn as amber key caps so they stand out from the text.
+- On the big map the current task is marked with a hollow gold diamond around its target, so the
+  target itself stays visible.
 
 ## beta-2026.11.13-18 (13 November 2026)
 
