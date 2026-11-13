@@ -6,7 +6,20 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- New plane: the B-25 bomber, in the hangar and the plane previews (Allied). Slow and heavy,
+  with six bombs. Hold the camera button to move between the crew seats: the pilot, the tail
+  gunner (a glazed tail cone with twin guns and a reflector sight, B to bring your eye up to it)
+  and the bomb aimer (a wide look down, B to zoom into the bombsight). The seats you leave are
+  crewed for you: the plane holds its height and heading, the gunner fires and the bomb aimer
+  bombs. Only bombing tasks are offered while you fly her.
+- Fuel tankers go up violently: a huge rolling fireball, a blast wave that throws nearby planes
+  about (and can bring them down), burning fuel raining down, and on the ground a fuel fire that
+  burns for minutes under a black column. Tankers have their own icon on the maps.
+- Explosions are lumpy, boiling fireballs instead of round balls.
+- A plane crashing into the ground goes off like a bomb, heavier and faster ones harder: trees,
+  buildings, vehicles and guns nearby are knocked down, and kills from it count as yours if you
+  shot the plane down. Mind where you crash your own.
+- Parachute kills leave a red splatter that sags and runs down, instead of a round red ball.
 
 ## beta-2026.11.13-20 (13 November 2026)
 
