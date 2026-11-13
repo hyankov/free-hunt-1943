@@ -6,7 +6,37 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Real bombs: bombers carry six each and drop them one by one in a stick, released well short
+  of the target. They go off where they land, on the ground, a building, a ship or a plane, and
+  being near one hurts (BOMBED). You hear a whistle when one comes down close. A bomber shot
+  down with its load aboard goes up with it. The bombers you escort now bomb the enemy's
+  nearest town.
+- Bomber and tanker gunners fire back: the top turret swings onto the nearest enemy fighter
+  within 600 m, you included, with tracers.
+- Planes are damaged where they are hit. A holed wing pulls to its side, a hit tail makes the
+  controls sluggish, a hit engine loses power and then dies, and an enemy pilot who is killed
+  leaves his plane wandering on until it hits something. A hit on your cockpit cracks the
+  canopy. Short notes under the sight tell you what you hit (ENGINE HIT, PILOT KILLED ...).
+  Rounds also land where you aim on fast targets now, instead of a little behind them.
+- Enemy carriers run flight operations: fighters wait on the deck, take off from the bow when
+  the carrier is attacked or you come close, fly patrols, and come back to land on the wires.
+  New task: DEFEND THE CARRIER.
+- Taking off from a carrier needs the brake launch: hold the brakes at full power, then let go.
+  A plain run from a standstill ends off the bow. On a deck you now turn with the ship.
+- Landings roll out like real ones (about 300 m) instead of stopping on a dime, and dropping in
+  at the edge of the stall is a crash (STALLED IN).
+- The kill camera is now a short replay that plays a moment after the kill, marked REPLAY, and
+  it shows parachute kills too.
+- Canopy blood clears faster (much faster in rain), and it no longer hides the HUD text in the
+  clean view.
+- You hear planes tear past: a fast close pass has its own rush of wind and engine dropping in
+  pitch, and fighter engines carry further.
+- Menus: the left stick moves through them like the d-pad, and L1/R1 work as left/right.
+- Two new achievements, OLD WARHORSE and SCORCHED EARTH, and the logbook counts villages razed
+  and your longest-lived airframe. TREETOP DUEL no longer counts enemies shot down on the ground.
+- On the maps your own plane is white, so it is never mistaken for the gold task mark.
+- The PLANES view now sits in a volcano's crater: a fixed hangar with its doors open, a runway
+  with planes taking off, ground crew, a jeep by the tower, woods and a farm.
 
 ## beta-2026.11.13-19 (13 November 2026)
 
