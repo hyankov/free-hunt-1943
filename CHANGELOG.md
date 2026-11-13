@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.13-18 (13 November 2026)
+
 - Each side now flies its own fighters. The Allies have the Spitfire, the P-51D Mustang, the
   P-47 Thunderbolt and a new Hurricane, in greens and browns; the Axis have the new Bf 109 G,
   Fw 190 A and Fw 190 D-9 and the Zero, in whites and greys. Every type has its own handling,
