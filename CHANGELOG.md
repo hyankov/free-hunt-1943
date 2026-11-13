@@ -6,7 +6,9 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Factory chimneys now raise proper smoke plumes that lean with the wind: black coal smoke at
+  some works, white steam at others, and a few stand idle. The smoke stops when a chimney is
+  knocked down or most of the works is destroyed.
 
 ## beta-2026.11.13-22 (13 November 2026)
 
