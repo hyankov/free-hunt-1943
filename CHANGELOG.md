@@ -6,7 +6,20 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Paratroop transports for both sides: a three-engined plane with a ramp under the tail that
+  lowers for the jump. Six men jump one at a time; shoot the transport down first and they go
+  down with it. If more than half of them land in the drop zone, the town or works there
+  changes hands, and that stays in your world. New tasks to stop an enemy drop or to cover one
+  of ours, a map icon for transports, an entry in the plane previews, a TRANSPORTS row in the
+  logbook and a new achievement.
+- B-25: a tap on the camera button in a crew seat now goes outside and back to the same seat;
+  holding it moves to the next seat. The bomb aimer looks straight down, with a little free look
+  around that.
+- START - NEW WORLD now flies the plane you picked on the menu, not the one you flew last.
+- After bailing out, looking around and steering the parachute work again, even if the gun
+  sight zoom was on when you jumped.
+- Fuel tankers no longer have passenger windows: a fuel tank, filler caps, a refuelling hose
+  and a hazard sign instead.
 
 ## beta-2026.11.13-21 (13 November 2026)
 
