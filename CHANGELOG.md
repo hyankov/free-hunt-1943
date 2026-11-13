@@ -6,7 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- In the chase and clear views the throttle and fuel bars and the rocket marks in the lower
+  left are gone. Throttle and fuel are now shown as percentages and rockets as a count, on a
+  second line of text under speed, height and heading. All of that text is a little smaller so
+  everything fits, and low fuel blinks red.
 
 ## beta-2026.11.13-18 (13 November 2026)
 
