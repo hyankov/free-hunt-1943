@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.13-20 (13 November 2026)
+
 - Real bombs: bombers carry six each and drop them one by one in a stick, released well short
   of the target. They go off where they land, on the ground, a building, a ship or a plane, and
   being near one hurts (BOMBED). You hear a whistle when one comes down close. A bomber shot
