@@ -6,7 +6,17 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Big bombing raids run much smoother. When many bombs go off at once, each explosion uses
+  fewer, larger pieces of fire and smoke, falling trees throw less litter, neighbouring craters
+  share one thicker smoke column, and smoke hidden behind other smoke is no longer drawn. Flying
+  through the smoke of a large raid is up to about twice as fast. A single bomb looks the same
+  as before.
+- Area tasks are offered less often: about one new area in three has a task, there is a break of
+  a few minutes after a task ends, and none are offered while a paratroop drop is going in, so
+  there is more room to simply fly and hunt.
+- Tasks now follow places that change hands: you are no longer asked to defend a town or works
+  that enemy paratroopers have already taken, and bombers on a task stay away from places their
+  own side's paratroopers are dropping on.
 
 ## beta-2026.11.13-23 (13 November 2026)
 
