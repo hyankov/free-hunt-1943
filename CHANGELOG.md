@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.14-24 (14 November 2026)
+
 - Big bombing raids run much smoother. When many bombs go off at once, each explosion uses
   fewer, larger pieces of fire and smoke, falling trees throw less litter, neighbouring craters
   share one thicker smoke column, and smoke hidden behind other smoke is no longer drawn. Flying
