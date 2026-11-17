@@ -1,0 +1,83 @@
+name: benchmark
+# Builds the R36S benchmark kit from the PRIVATE source repo and publishes it here as the "benchmark"
+# pre-release (replaced on every run). Runs only when started by hand (Actions > benchmark > Run workflow).
+# The kit is a self-contained PortMaster port: the game built from `ref`, a frame probe and a script that
+# plays fixed benchmark scenes on the device and writes the frame times to ports/freehunt1943bench/bench/.
+# Nothing but the finished zip is published: no source, no build logs. It is never marked "latest", and
+# release.yml's clean-up leaves this tag alone, so the game's own download links are unaffected.
+# Fixed link: https://github.com/hyankov/free-hunt-1943/releases/download/benchmark/freehunt1943-bench.zip
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Branch, tag or commit of the source to build
+        default: main
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: benchmark
+  cancel-in-progress: true
+env:
+  SOURCE_REPO: hyankov/ww2_dogfight
+  TAG: benchmark
+jobs:
+  kit:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SOURCE_REPO }}
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.SOURCE_TOKEN }}
+          persist-credentials: false
+      - uses: actions/cache@v4
+        with:
+          path: .toolchain
+          key: aarch64-toolchain-${{ hashFiles('tools/build_aarch64.sh') }}
+      - name: Version
+        id: v
+        run: |
+          v="bench-$(date -u +%Y.%m.%d)-$(git rev-parse --short=10 HEAD)"
+          echo "v=$v" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "#define GAME_VERSION \"$v\"" > src/version.h
+      - name: Benchmark kit (game + probe + script)
+        run: |
+          if ! python3 tools/r36s_emu/r36s.py device-kit "${{ steps.v.outputs.v }}" > build.log 2>&1; then
+            echo "Build failed. The full log stays private; only error lines are shown."
+            grep -E "error:|Error " build.log | cut -c1-200 | head -20
+            exit 1
+          fi
+          unzip -l dist/freehunt1943-bench.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bench
+          path: dist/freehunt1943-bench.zip
+          retention-days: 1
+    outputs:
+      v: ${{ steps.v.outputs.v }}
+
+  publish:
+    needs: kit
+    runs-on: ubuntu-24.04
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: bench
+          path: out
+      - name: Publish (replace the previous kit)
+        env:
+          V: ${{ needs.kit.outputs.v }}
+        run: |
+          {
+            echo "R36S benchmark kit, build \`$V\`. Not a game release: it measures frame times on the device."
+            echo
+            echo "Unzip \`freehunt1943-bench.zip\` into the R36S's \`ports\` folder (it has its own folder, \`freehunt1943bench\`, and never touches the installed game or its save), run **Free Hunt 1943 Benchmark** from Ports (about 20 minutes, hands off), then send back \`ports/freehunt1943bench/bench/\`."
+          } > notes.md
+          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" out/freehunt1943-bench.zip --title "R36S benchmark kit ($V)" --notes-file notes.md \
+            --prerelease --latest=false --target "${{ github.sha }}"

@@ -3,7 +3,8 @@ name: release
 # (PortMaster zip + Android APK). Runs only when started by hand (Actions > release > Run workflow).
 # Source is checked out with the SOURCE_TOKEN secret: a fine-grained token with read-only
 # "Contents" access to hyankov/ww2_dogfight. Nothing but the two finished files is published:
-# no source, no build logs (a failed build shows only its error lines). Only the newest release is kept.
+# no source, no build logs (a failed build shows only its error lines). Only the newest release is kept
+# (the "benchmark" pre-release of benchmark.yml is not counted and never deleted).
 # CHANGELOG.md: every release needs bullet points under "## Next release" first. They become the
 # release notes, and after publishing that heading is renamed to the new tag and a fresh empty
 # "## Next release" is put on top (committed to main as hyankov).
@@ -190,9 +191,10 @@ jobs:
           TAG: ${{ steps.name.outputs.tag }}
         run: |
           gh release list --limit 200 --json tagName,publishedAt \
-            --jq "sort_by(.publishedAt) | reverse | .[$KEEP_RELEASES:] | .[].tagName" |
+            --jq "map(select(.tagName != \"benchmark\")) | sort_by(.publishedAt) | reverse | .[$KEEP_RELEASES:] | .[].tagName" |
           while read -r t; do
             [ "$t" = "$TAG" ] && continue   # never the release just published
+            [ "$t" = "benchmark" ] && continue   # benchmark.yml's kit (Hristo 2026-11-17)
             echo "deleting old release $t"
             gh release delete "$t" --yes --cleanup-tag
           done
