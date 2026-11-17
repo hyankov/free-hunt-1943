@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.17-26 (17 November 2026)
+
 - Headings on the big map now sit on a see-through border round the edge of the map, in whole
   degrees (0, 30 ... 330) with small ticks every 10, and marks for where your nose points, your
   task and home. The minimap ring shows whole degrees too.
