@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.17-32 (17 November 2026)
+
 - Found landmarks are spotted from up to 600 m in clear daylight; rain, storms, snow, fog, cloud
   and night shorten that range. Landmarks you have found no longer show on the radar.
 - Panning the big MAP no longer stutters: towns, roads and railways of new ground are worked out
