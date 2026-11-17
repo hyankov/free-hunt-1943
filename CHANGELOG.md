@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.17-28 (17 November 2026)
+
 - **Your world will be made anew.** Railways and roads have been laid out afresh, so a world
   saved by an older version is replaced by a fresh one the first time you start this release
   (your logbook, career and achievements are kept).
