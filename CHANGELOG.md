@@ -6,7 +6,23 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- The RADAR minimap no longer draws an arrow for your own plane. Other planes carry their height
+  difference as small lit tags in hundreds of metres (+3 is 300 m above you, -12 is 1200 m below).
+- MINIMAP and KILL CAMERA have moved to OPTIONS > GAME.
+- Settings pages are laid out more cleanly: the title stays at the top, the options sit in the
+  middle of the screen and the hints are at the bottom.
+- The big map no longer draws a dashed line out of your plane's arrow.
+- The FPS counter (when turned on) now sits in the top right corner.
+- Ground units get boxes too: enemy vehicles, guns, trains and ships in red, ours in green, under
+  the same FOE MARKERS and FRIEND MARKERS switches. A train is boxed by its locomotive only, towns
+  are not boxed, and the old far-off "CONVOY" marker is gone.
+- Thunder can now be heard on handheld speakers, and far-off sounds arrive late by where you are
+  when their sound reaches you, not where you were when it happened.
+- Other deep sounds are audible on small speakers too: the enemy's heavy guns, touchdowns,
+  avalanches, the runway rumble and the idling engine.
+- Flying through a parachute now lands with a heavy thud.
+- New RESET PROFILE on the CAREER screen: it clears your career, logbook and achievements
+  together, after a NO/YES question (NO is picked first). Your world is kept.
 
 ## beta-2026.11.17-29 (17 November 2026)
 
