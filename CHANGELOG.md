@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.17-30 (17 November 2026)
+
 - The RADAR minimap no longer draws an arrow for your own plane. Other planes carry their height
   difference as small lit tags in hundreds of metres (+3 is 300 m above you, -12 is 1200 m below).
 - MINIMAP and KILL CAMERA have moved to OPTIONS > GAME.
