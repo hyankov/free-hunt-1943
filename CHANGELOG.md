@@ -6,7 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- The MAP pans and zooms smoothly: the paper no longer runs out at the edges while you move it, and
+  zooming out no longer freezes the game.
+- The MAP stays on the ground you have explored: you can pan only as far as some of it is still in
+  view, and zoom out only until all of it fits.
 
 ## beta-2026.11.17-26 (17 November 2026)
 
