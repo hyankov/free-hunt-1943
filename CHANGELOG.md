@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.17-35 (17 November 2026)
+
 - Achievements now come in two tiers, Normal and Ace: an Ace version asks for more (for example
   flying under a bridge inverted), shows as a gold ACE tag in the logbook and is announced as an
   ACE ACHIEVEMENT. New ones: landing on a carrier, and a deck launch from a dead stop.
