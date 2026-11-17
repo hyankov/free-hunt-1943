@@ -6,7 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- All messages now have fixed places: kills and notices (fuel leak, touchdown, view changes) in
+  one list at the bottom left, newest at the bottom; achievements, landmarks, ranks and tasks on
+  one plaque in the middle (landmarks in blue); stall and overheating warnings in the middle;
+  orders, damage and ground crew in cards at the top right.
 
 ## beta-2026.11.17-32 (17 November 2026)
 
