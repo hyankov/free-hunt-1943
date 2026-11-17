@@ -10,6 +10,14 @@ downloaded, from the [Releases](../../releases) page.
   one list at the bottom left, newest at the bottom; achievements, landmarks, ranks and tasks on
   one plaque in the middle (landmarks in blue); stall and overheating warnings in the middle;
   orders, damage and ground crew in cards at the top right.
+- Bridge columns are solid: flying into one crashes you and brings that span down.
+- Railway trestles work the same way: shoot, rocket, bomb or crash into them to drop a span, and
+  trains stop short of the gap.
+- Small islands no longer carry desert mesas and rock towers; they are sand and dunes instead.
+  Because of this a new world is generated the first time you start this version.
+- Looking into the sun shows a soft glow instead of hard rings.
+- On phones the big map stays up only while your finger holds the radar; on the MAP screen pinch
+  and spread to zoom and drag with two fingers to pan.
 
 ## beta-2026.11.17-32 (17 November 2026)
 
