@@ -6,7 +6,59 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- **Your world will be made anew.** The land has changed a lot, so a world saved by an older
+  version is replaced by a fresh one the first time you start this release (your logbook,
+  career and achievements are kept). From now on this only happens when the land changes a lot.
+- The front shifts: now and then one side pushes on a town or works of the other, with
+  paratroopers (sometimes deep behind the line) or an assault column of tanks down the road.
+  Only a few pushes go on at once. Near you they are played out for real, so you can stop them or
+  help them; places taken stay taken in your world. A column that has taken a place waits a
+  minute or two, then drives on.
+- New MAP and CAREER entries in the menus. MAP opens the big map to look round at leisure: move
+  it with the stick, d-pad or a drag and zoom with the right stick, L1/R1 or +/-. CAREER shows
+  your WW2 rank, earned by merit, with a banner for each promotion (or demotion: every second
+  crewman you kill in his parachute costs you a rank).
+- Headings on the maps: the minimap wears a see-through ring of headings that turns with you,
+  with your heading at the top, and the big map shows the same numbers round you, a dashed line
+  where your nose points and the heading and distance to your task. Orders now say "HDG 026"
+  instead of "NE". You are a white arrow on both maps.
+- HUD labels: enemy planes are named by type when close enough to tell (BF 109, FW 190, JU 88,
+  and so on; aces by name; formations as "JU 88 X3"). Enemy pilots are promoted for each of your
+  side they shoot down and wear their rank by the label. Ships get a box round the whole hull and
+  are named DESTROYER or CARRIER and her name. Aces join the box of fighters close by.
+- RKT 0 shows in red, the achievement banner and orders card are see-through, and the hangar
+  prompt no longer shows over the big map.
+- Defence tasks mark the raid's bombers and the fighters sent after it in gold. Downed planes and
+  crews in their chutes turn grey on the minimap.
+- Aces with you on their six (or badly hurt, or just hit) more often run for it low down the
+  valleys and canyons, and come round again after a pause.
+- On the ground you are no longer safe: enemies that have seen you land come down in strafing
+  runs. New STRAFED entry. Ground crew take longer (about 15 to 20 seconds).
+- Rockets now go off close to the plane's actual shape, not a big sphere round it, so near misses
+  past the wingtips miss.
+- AI planes draw their wheels up after takeoff. A dead engine reads THR DEAD and goes quiet in a dive.
+- B-25: the rocket button (R on a keyboard) drops a bomb from any seat and any view.
+- New achievements: NOBODY LANDS (shoot every man a transport drops before he lands), TABLE TOP
+  (land on a desert mesa) and BLIND LANDING (now only down in thick fog).
+- Desert country like Monument Valley: buttes, mesas and spires on rock skirts with sheer cliffs,
+  real arches through sandstone fins, broad mesas you can land on. A rocket or a crash topples a
+  spire and it stays where it fell. A green belt always lies between desert and snow country, and
+  chalk cliffs are white.
+- The moon is bigger and looks like the moon, with its seas, craters and rays.
+- Thunder comes late by the distance of the lightning: a sharp crack close by, a long low rumble
+  far away.
+- Hidden places stand where they make sense: radar stations, castles and observatories on high
+  ground, rocket sites hidden in woods and valleys, mines in the hills, weather stations up on the
+  snowfields. Each stands on its own concrete, asphalt, gravel or cinder floor, with no trees over
+  it. Factories stand on a concrete yard and train depots on a cinder yard.
+- Trains: fuel tank wagons and ammunition vans blow up and set their neighbours off, and the cars
+  behind a wreck jackknife off the line. Trains vary in length, now and then a long one. Any
+  explosion now hurts whatever is near it, you included if you fly through it low.
+- New REDUCED SMOKE video option (off by default) for smoother big raids.
+- Fixes: the chase view look stick and touch drag move the right way; far-off AI dogfights no
+  longer circle for ever; no trees on village fields; a wreck on a fallen arch burns on the
+  ground; found landmarks no longer blink on the map; dam floods no longer run uphill; the hangar
+  camera no longer ends up inside the hangar; plane previews no longer change your view in flight.
 
 ## beta-2026.11.14-24 (14 November 2026)
 
