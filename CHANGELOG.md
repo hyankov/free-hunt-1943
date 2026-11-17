@@ -6,7 +6,13 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Headings on the big map now sit on a see-through border round the edge of the map, in whole
+  degrees (0, 30 ... 330) with small ticks every 10, and marks for where your nose points, your
+  task and home. The minimap ring shows whole degrees too.
+- Panning and zooming the MAP no longer makes the headings jump about, and zoomed far out the map
+  shows everything you have explored, not just a strip of it.
+- Starting in the air no longer puts you inside a tall desert rock.
+- An enemy column that has taken a town now always drives on after its stop, even if you fly away.
 
 ## beta-2026.11.17-25 (17 November 2026)
 
