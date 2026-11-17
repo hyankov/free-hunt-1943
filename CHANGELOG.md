@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.17-29 (17 November 2026)
+
 - The RADAR minimap no longer shows a stray "1" on its middle ring.
 
 ## beta-2026.11.17-28 (17 November 2026)
