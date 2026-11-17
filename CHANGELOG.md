@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.17-31 (17 November 2026)
+
 - The minimap is now always the radar scope: the old paper minimap is gone, and OPTIONS > GAME >
   MINIMAP simply turns it ON or OFF. It sits snugly in the top left corner.
 - Height tags on the radar light up only as the sweep passes over a plane, then fade.
