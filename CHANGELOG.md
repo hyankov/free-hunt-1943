@@ -6,7 +6,18 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- The minimap is now always the radar scope: the old paper minimap is gone, and OPTIONS > GAME >
+  MINIMAP simply turns it ON or OFF. It sits snugly in the top left corner.
+- Height tags on the radar light up only as the sweep passes over a plane, then fade.
+- Airfields are no longer drawn on the radar (planes on them still show).
+- STOP PARA DROP: the incoming enemy transports are now marked like a raid's bombers, with gold
+  brackets and map diamonds, until they have dropped their men.
+- The pointer to your nearest airfield or carrier only appears when you need it: fuel under 25%,
+  badly damaged, an engine hit or leak, or out of rockets or bombs. It stays until you are within
+  300 m of the runway or the carrier.
+- Rain looks more natural, as soft streaks with depth instead of a flat sheet.
+- Snow falls above about 900 m on mountain slopes as well as in the winter lands, with sleet in
+  between.
 
 ## beta-2026.11.17-30 (17 November 2026)
 
