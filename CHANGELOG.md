@@ -6,7 +6,23 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- **Your world will be made anew.** Railways and roads have been laid out afresh, so a world
+  saved by an older version is replaced by a fresh one the first time you start this release
+  (your logbook, career and achievements are kept).
+- Railways run on their own lines across country now, no longer beside the roads: they link the
+  industrial works, towns and cities, with tunnels through hills, trestle viaducts over valleys
+  and level crossings where they meet a road. Each town has its halt just outside; villages are
+  only passed through.
+- Most airfields now have a smaller road out to the nearest bigger road or town.
+- The big map and the MAP screen show major roads and railways on the ground you have explored.
+- Friendly planes near you get a green box, named and grouped the same way as the enemy's red
+  ones.
+- New GAME page in OPTIONS with FOE MARKERS and FRIEND MARKERS, to turn the red and the green
+  boxes on or off (both on by default).
+- New MINIMAP choice in OPTIONS > VIDEO: OFF, CLASSIC (the paper map, as before) or RADAR, a green
+  scope with range rings and a sweep that lights up planes, ground and sea targets, parachutes
+  and hidden landmarks within 2 km. What flies glows brightly; ground and sea contacts are small
+  and dim, so you can tell them apart.
 
 ## beta-2026.11.17-27 (17 November 2026)
 
