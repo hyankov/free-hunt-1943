@@ -6,7 +6,12 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Achievements now come in two tiers, Normal and Ace: an Ace version asks for more (for example
+  flying under a bridge inverted), shows as a gold ACE tag in the logbook and is announced as an
+  ACE ACHIEVEMENT. New ones: landing on a carrier, and a deck launch from a dead stop.
+- Flying under a bridge or through a rock arch only counts if you survive 3 seconds afterwards
+  (bailing out counts as surviving).
+- Switching views or seats no longer announces COCKPIT VIEW, CHASE VIEW and so on.
 
 ## beta-2026.11.17-34 (17 November 2026)
 
