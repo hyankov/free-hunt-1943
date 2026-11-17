@@ -6,7 +6,24 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Found landmarks are spotted from up to 600 m in clear daylight; rain, storms, snow, fog, cloud
+  and night shorten that range. Landmarks you have found no longer show on the radar.
+- Panning the big MAP no longer stutters: towns, roads and railways of new ground are worked out
+  ahead in the background.
+- Much better frame rate on the R36S: the closed big map no longer redraws itself while you fly,
+  roads ahead are prepared in the background, and the ground, sky and cockpit are cheaper to draw
+  while looking the same.
+- New VIDEO > VEGETATION option: turn it off to fly without trees and cacti for extra speed.
+- The SIMPLE GROUND option is gone: the faster ground is now the only one, and it keeps the white
+  waves along the shores.
+- The sky's gradient and the halo round the sun no longer show stepped colour bands.
+- The cockpit no longer has tinted canopy glass in front of you; bullet cracks and the gunsight
+  glass stay.
+- Fixed small dark gaps along the top of the Spitfire's dashboard.
+- Wrecks stop smoking after 25 seconds at most.
+- Messages are in one place: notices such as FUEL TANK HOLED or TOUCHDOWN now appear in the same
+  feed as kills, bottom left, newest at the bottom. Kills are orange with their points, notices
+  yellow. Found landmarks get a pale blue plaque, achievements a gold one.
 
 ## beta-2026.11.17-31 (17 November 2026)
 
