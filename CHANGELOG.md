@@ -6,7 +6,18 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Landing achievements now count only once you come to a complete stop (Touch and Go is the
+  exception).
+- In the logbook, an achievement you have not earned yet that has an Ace version now takes turns
+  showing what the Normal and the Ace ask.
+- New railway achievements: Train Buster (wreck a whole enemy train), with its Ace Chain Reaction
+  (a fuel or ammo wagon that takes 3 more cars with it); Bridge Too Far (drop a trestle under a
+  moving enemy train), with its Ace End of the Line (the engine itself on the trestle).
+- Railway trestles stand on many more legs, and you can shoot or rocket the legs out: two of them
+  bring the span down. A train on a falling span goes down with it, the cars near the edge are
+  dragged over, and the wrecks land on their sides or roofs.
+- Locomotives blow coal smoke while moving; destroyers and carriers trail funnel haze.
+- The RECORD page of the logbook no longer has a line sticking out of its panel.
 
 ## beta-2026.11.17-35 (17 November 2026)
 
