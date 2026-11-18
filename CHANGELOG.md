@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.18-36 (18 November 2026)
+
 - Landing achievements now count only once you come to a complete stop (Touch and Go is the
   exception).
 - In the logbook, an achievement you have not earned yet that has an Ace version now takes turns
