@@ -8,6 +8,11 @@ downloaded, from the [Releases](../../releases) page.
 
 _Nothing yet._
 
+## beta-2026.11.18-39 (18 November 2026)
+
+- Approach lights: the runway's lights run a wave on approach in bad visibility, instead of the glide-path rectangles
+- Canopies sit on the body (no gap under the glass), and bailing out jettisons the hood
+
 ## beta-2026.11.18-38 (18 November 2026)
 
 - Much smoother on the R36S: the game no longer keeps rebuilding the same bits of the world
