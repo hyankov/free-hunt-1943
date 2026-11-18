@@ -1,7 +1,7 @@
 name: benchmark
 # Builds the R36S benchmark kit from the PRIVATE source repo and publishes it here as the "benchmark"
 # pre-release (replaced on every run). Runs only when started by hand (Actions > benchmark > Run workflow).
-# The kit is a self-contained PortMaster port: the game built from `ref`, a frame probe and a script that
+# The kit is a self-contained PortMaster autoinstall zip: the game built from `ref`, a frame probe and a script that
 # plays fixed benchmark scenes on the device and writes the frame times to ports/freehunt1943bench/bench/.
 # Nothing but the finished zip is published: no source, no build logs. It is never marked "latest", and
 # release.yml's clean-up leaves this tag alone, so the game's own download links are unaffected.
@@ -76,7 +76,7 @@ jobs:
           {
             echo "R36S benchmark kit, build \`$V\`. Not a game release: it measures frame times on the device."
             echo
-            echo "Unzip \`freehunt1943-bench.zip\` into the R36S's \`ports\` folder (it has its own folder, \`freehunt1943bench\`, and never touches the installed game or its save), run **Free Hunt 1943 Benchmark** from Ports (about 20 minutes, hands off), then send back \`ports/freehunt1943bench/bench/\`."
+            echo "**R36S / PortMaster:** copy \`freehunt1943-bench.zip\` (do not unzip) to \`ports/PortMaster/autoinstall/\`, then open PortMaster. It installs into its own folder, \`freehunt1943bench\`, and never touches the installed game or its save. Run **Free Hunt 1943 Benchmark** from Ports (about 20 minutes, hands off), then send back \`ports/freehunt1943bench/bench/\`."
           } > notes.md
           gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
           gh release create "$TAG" out/freehunt1943-bench.zip --title "R36S benchmark kit ($V)" --notes-file notes.md \
