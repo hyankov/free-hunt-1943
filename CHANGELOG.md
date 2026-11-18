@@ -6,7 +6,8 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- When a trestle comes down under a train, the fire and smoke now rise from the wrecked cars in
+  the canyon, and the trestle's legs snap off instead of staying upright.
 
 ## beta-2026.11.18-36 (18 November 2026)
 
