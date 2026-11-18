@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.18-38 (18 November 2026)
+
 - Much smoother on the R36S: the game no longer keeps rebuilding the same bits of the world
   every frame, so take-off, flying over new ground and the cockpit view run noticeably faster,
   with far fewer hitches.
