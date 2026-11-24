@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.24-42 (24 November 2026)
+
 - New DOGFIGHT mode. START now offers FREE HUNT (the game as before, CONTINUE or NEW WORLD) or
   DOGFIGHT: a round between two teams of fighters, 1, 2, 5 or 10 a side, on a small island
   (about 50 km2) of green country, desert, winter or a coral atoll, with the sea all round. You
