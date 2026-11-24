@@ -59,23 +59,27 @@ Download the APK on the phone, open it and allow installs from that source when 
 
 ## Updating
 
-Your settings and logbook are kept with every update.
+The game updates itself. When the device is on Wi-Fi, it quietly asks GitHub whether a newer
+version is out. If one is, the main menu says **NEW VERSION ... IS OUT** under the title and an
+**UPDATE** item appears above EXIT. Pick it and say YES: the game downloads the new version and
+installs it. Your settings, logbook and world are kept.
 
-### R36S: one-button update from the Ports menu (Wi-Fi)
+- **R36S:** the download and install happen inside the game (it shows the megabytes as they come
+  in; don't turn the device off while it says INSTALLING). Then the game starts again by itself
+  as the new version.
+- **Android:** the game downloads the new APK, then Android asks you to install it. The first
+  time, Android may ask you to allow the game to install apps: allow it, then go back and confirm.
 
-1. **Once:** download [`Update Free Hunt 1943.sh`](https://raw.githubusercontent.com/hyankov/free-hunt-1943/main/tools/Update%20Free%20Hunt%201943.sh)
-   and copy it into your `ports` folder, next to `FreeHunt1943.sh` (on ArkOS:
-   `roms/ports/`). Restart EmulationStation so it shows up.
-2. **Every time a new version is out:** turn Wi-Fi on, open **Ports** and run
-   **Update Free Hunt 1943**. It checks GitHub first: if you already have the newest
-   version it says so, otherwise it downloads and installs it.
+If an update fails, check the Wi-Fi and that the date and time on the device are right, then pick
+UPDATE again.
 
-If the download fails, check Wi-Fi and that the date and time on the device are right.
-No Wi-Fi? Copy the new `freehunt1943.zip` into `ports/PortMaster/autoinstall/` again, as in Install.
+The game only ever uses the network for this check and the download, only on a connected Wi-Fi,
+and sends nothing about you, your device or your play. Don't want it? Turn off
+**OPTIONS > GAME > CHECK FOR UPDATES**: then the game never goes online.
 
-### Android
-
-Download the new `free-hunt-1943.apk` and install it over the old one.
+Coming from a version older than beta-2026.11.24-41? That one needs a manual update: install it
+as in Install above (R36S: copy `freehunt1943.zip` into `ports/PortMaster/autoinstall/` again;
+Android: install the new APK over the old one). Every update after it comes in by itself.
 
 ## Controls
 
