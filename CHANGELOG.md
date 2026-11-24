@@ -6,7 +6,40 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- A new world is generated the first time you start this version: the world generator has
+  changed a lot (airfields, ports, sea routes, a new landmark).
+- Houses, hangars and control towers are proper detailed models, styled by region and town.
+- Airfields are no longer built across roads or water.
+- Planes steer on the ground like real taildraggers, building up the turn.
+- Landing to a full stop idles the throttle. New achievement SEAT OF THE PANTS for a landing flown
+  from the cockpit view.
+- Flying into a ship says KAMIKAZED, and crashing into a dam, bridge or deck says CRASHED, not
+  DITCHED. Running out of fuel away from an airfield gives you a new plane at the nearest strip.
+- The ace you are tasked to hunt has one gold-marked edge arrow instead of two.
+- The view shakes with the damage you take, and firing a rocket gives it a kick.
+- Holding A on the R36S shows a quick big map you can pan and zoom with the sticks, d-pad and
+  shoulder buttons without pausing.
+- At night, town lights glow in house windows instead of being scattered over fields. Enemy
+  airfields are blacked out except while their planes take off or land.
+- The main menu tells you when a new version is out, and can update the game for you.
+- Coastal towns have ports, destroyers sail between them, and ships keep to sea routes off the
+  coast. Carriers are back on big seas, joined by fast torpedo boats.
+- Weather is now local: rain, snow, storms and blizzards drift through as cells you can fly into
+  or around. The weather option is gone.
+- Parachutes drift with the wind, can be struck by lightning, and have Allied and Axis canopies.
+- Bombers: no autopilot, the chase view flies them from any seat, a marker on the ground shows
+  where the bombs will fall, and they carry 10 bombs.
+- The ground no longer shows repeating tiles from afar.
+- Convoys and trains keep their side; a convoy that rolls into a place of the other side takes
+  it. Convoys go round a wreck after being stuck behind it for a while.
+- Zoomed out, the big map shows zones of influence for each side and the front line instead of
+  every town and unit.
+- New hidden landmark: a castaway pilot's camp on a little island, with campfire smoke by day and
+  a light at night. Hidden landmarks are ten times rarer.
+- Also: CONTINUE starts at your airfield nearest to where you were; tasks count only if you took
+  part and are lost when you go down; dead engines windmill; canopies sit properly and fly off
+  when you bail out; windsocks follow the live wind; blasts reach further; the kill camera shows
+  only for rocket kills and parachute run-overs; towns appear without a hitch.
 
 ## beta-2026.11.18-38 (18 November 2026)
 
