@@ -6,7 +6,19 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- New DOGFIGHT mode. START now offers FREE HUNT (the game as before, CONTINUE or NEW WORLD) or
+  DOGFIGHT: a round between two teams of fighters, 1, 2, 5 or 10 a side, on a small island
+  (about 50 km2) of green country, desert, winter or a coral atoll, with the sea all round. You
+  can also pick the starting time of day, weather and island, or leave them RANDOM.
+- In a dogfight both teams take off one by one from their own airfield, each guarded by AA guns
+  that fire at the other side's planes. Aces fly on both sides (more in bigger rounds), everyone
+  knows where everyone else is, and the airfields still refuel, repair and rearm.
+- Fly too far off the island and you are told to TURN BACK; keep going and the engine cuts out
+  until you glide back in.
+- Go down in a dogfight and the round is lost: there is no second plane. The last side flying
+  wins, but if you are the last one left and badly hurt, you must land to a full stop or come
+  down safely under your parachute. Then the game returns to the main menu, with your Free Hunt
+  world as you left it.
 
 ## beta-2026.11.24-41 (24 November 2026)
 
