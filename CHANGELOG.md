@@ -6,7 +6,9 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Explosions now depend on the fuel aboard: a truck, train wagon, ship or dump with full tanks goes
+  up bigger and hits harder around it than one running nearly empty. Fuel trucks, tank wagons and
+  fuel dumps are always well filled.
 
 ## beta-2026.11.24-43 (24 November 2026)
 
