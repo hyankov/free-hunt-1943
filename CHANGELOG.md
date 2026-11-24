@@ -6,7 +6,12 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- The same rules for everybody: an enemy round now hurts you as much as yours hurts them (it did
+  about a third before), rocket blasts hit you as they hit enemy fighters, enemy guns overheat
+  like yours, and AI planes burn fuel, go home to refuel and glide when they run dry. Expect the
+  enemy to be a lot more dangerous.
+- Dogfight: in bigger rounds up to four planes a side take off from the field and the rest start
+  in the air over it, so the fight starts sooner. Planes taxi out faster, one behind the other.
 
 ## beta-2026.11.24-42 (24 November 2026)
 
