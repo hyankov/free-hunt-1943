@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.24-41 (24 November 2026)
+
 - A new world is generated the first time you start this version: the world generator has
   changed a lot (airfields, ports, sea routes, atolls, a new landmark).
 - Atolls in the open sea: coral rings with little palm islands, passes and lagoons.
