@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.24-43 (24 November 2026)
+
 - The same rules for everybody: an enemy round now hurts you as much as yours hurts them (it did
   about a third before), rocket blasts hit you as they hit enemy fighters, enemy guns overheat
   like yours, and AI planes burn fuel, go home to refuel and glide when they run dry. Expect the
