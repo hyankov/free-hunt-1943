@@ -10,7 +10,8 @@ downloaded, from the [Releases](../../releases) page.
   changed a lot (airfields, ports, sea routes, atolls, a new landmark).
 - Atolls in the open sea: coral rings with little palm islands, passes and lagoons.
 - Searchlights at night now light up the haze as soft beams, glare when one points at you, and
-  light up your plane when they catch you. Flak finds a caught plane much faster.
+  light up your plane when they catch you. Night flying over defended towns runs much
+  smoother.
 - Fuel tankers and fuel dumps catch fire easily, and new ammo dumps explode spectacularly.
 - A promotion is announced on the centre plaque with the new rank's sleeve badge.
 - Houses, hangars and control towers are proper detailed models, styled by region and town.
