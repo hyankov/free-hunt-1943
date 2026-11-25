@@ -6,6 +6,10 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
+_Nothing yet._
+
+## beta-2026.11.25-45 (25 November 2026)
+
 - Dogfight: the island now grows with the teams: about 50 km2 for 1 or 2 a side, 100 km2 for 5
   and 200 km2 for 10, with the two airfields further apart.
 - Dogfight: enemy planes no longer fly off the island. They turn back near the edge, and past it
