@@ -6,7 +6,24 @@ downloaded, from the [Releases](../../releases) page.
 
 ## Next release
 
-_Nothing yet._
+- Dogfight: the island now grows with the teams: about 50 km2 for 1 or 2 a side, 100 km2 for 5
+  and 200 km2 for 10, with the two airfields further apart.
+- Dogfight: enemy planes no longer fly off the island. They turn back near the edge, and past it
+  their engine cuts out just like yours.
+- Dogfight: landing no longer offers the hangar; you fly one plane a round. The airfields still
+  refuel, repair and rearm.
+- Dogfight: the end of a round is a big VICTORY or DEFEAT in the middle of the screen, up for
+  the whole countdown, and DEFEAT now shows over your wreck too.
+- Carrier landings: fighters coming in high on final get down to the deck instead of waving off
+  every pass.
+- Enemy fighters diving at a very steep peak now turn round it instead of flying into it.
+- Ships that could not find a sea route no longer hug the coast a hundred metres off.
+- No more points lost when the enemy blows up one of our trains, fuel trucks or dumps: whatever
+  goes up afterwards counts for whoever set it off.
+- Storm fronts no longer flicker and clip when you look straight into them, and a thunderstorm
+  is now a column under its anvil instead of a funnel.
+- Distant town and runway lights at night fade into the fog with the ground instead of floating
+  in the sky.
 
 ## beta-2026.11.24-44 (24 November 2026)
 
